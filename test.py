@@ -27,7 +27,7 @@ DetectionTests = {
                                  'no_resize'  : False, # Due to the different shapes of images in the dataset, resizing is required during batch detection.
                                  'no_crop'    : True,
                                },
-                  'GAN-set-2': { 'dataroot'   : '/Data/MLEP-Detection/datasets/GANs_and_DMs_Test/GAN-set-2',
+                  'GAN-set-2': { 'dataroot'   : '/Data/MLEP-Detection/datasets/TestDatasets/GAN-set-2',
                                  'no_resize'  : True,
                                  'no_crop'    : True,
                                },
