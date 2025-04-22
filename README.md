@@ -71,7 +71,7 @@ Further down are the '0_real' and '1_fake' folders.
 
 ## Testing
 
-Before testing, modify the dataroot in 'test.py', and then run:
+Before testing, download the datasets and modify the dataroot in 'test.py', and then run:
 ```sh
 python test.py --model_path ./pretrained/model_epoch_best.pth --batch_size 64
 ```
