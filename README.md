@@ -30,7 +30,7 @@ datasets
 |   |-- val
 |   `-- test
 `-- TestDatasets
-    |-- GAN_set_1        # Table1
+    |-- GAN-set-1        # Table1
     |   |-- biggan
     |   |-- cyclegan
     |   |-- gaugan
@@ -38,7 +38,7 @@ datasets
     |   |-- stargan
     |   |-- stylegan
     |   `-- stylegan2
-    |-- GAN_set_2        # Table2
+    |-- GAN-set-2        # Table2
     |   |-- AttGAN
     |   |-- BEGAN
     |   |-- CramerGAN
@@ -48,7 +48,7 @@ datasets
     |   |-- S3GAN
     |   |-- SNGAN
     |   `-- STGAN
-    `-- Diffusion_set    # Table3
+    `-- Diffusion-set    # Table3
         |-- adm
         |-- DALLE
         |-- dalle_mini
