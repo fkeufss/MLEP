@@ -1,5 +1,7 @@
 # MLEP
-Official PyTorch implementation for article——MLEP: Multi-granularity Local Entropy Patterns for Generalized Al-generated lmage Detection
+Official github repository for the article [MLEP: Multi-granularity Local Entropy Patterns for Generalized Al-generated lmage Detection](https://arxiv.org/abs/2504.13726).
+
+<img src="./MLEP.png" width="100%" alt="overall pipeline">
 
 ## Environment Setup
 ```sh
