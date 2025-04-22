@@ -23,15 +23,15 @@ def seed_torch(seed=1029):
     torch.backends.cudnn.enabled = False
 seed_torch(100)
 DetectionTests = {
-                  'GAN-set-1': { 'dataroot'   : '/Data/MLEP-Detection/TestDatasets/GAN-set-1',
+                  'GAN-set-1': { 'dataroot'   : '/Data/MLEP-Detection/datasets/TestDatasets/GAN-set-1',
                                  'no_resize'  : False, # Due to the different shapes of images in the dataset, resizing is required during batch detection.
                                  'no_crop'    : True,
                                },
-                  'GAN-set-2': { 'dataroot'   : '/Data/MLEP-Detection/GANs_and_DMs_Test/GAN-set-2',
+                  'GAN-set-2': { 'dataroot'   : '/Data/MLEP-Detection/datasets/GANs_and_DMs_Test/GAN-set-2',
                                  'no_resize'  : True,
                                  'no_crop'    : True,
                                },
-              'Diffusion-set': { 'dataroot'   : '/Data/MLEP-Detection/TestDatasets/Diffusion-set',
+              'Diffusion-set': { 'dataroot'   : '/Data/MLEP-Detection/datasets/TestDatasets/Diffusion-set',
                                  'no_resize'  : False, # Due to the different shapes of images in the dataset, resizing is required during batch detection.
                                  'no_crop'    : True,
                                },
