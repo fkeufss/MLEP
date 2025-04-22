@@ -357,10 +357,7 @@ def resnet50(pretrained=False, **kwargs):
     """
     model = ResNet(Bottleneck, [3, 4, 6, 3], **kwargs)
     if pretrained:
-        # model.load_state_dict(model_zoo.load_url(model_urls['resnet50']))
-        checkpoint = torch.load('/home/lxw/code/mine/MLEP-Detection/checkpoints/MLEP_resnet502025_01_14_09_05_49/model_epoch_180.pth')
-        model.load_state_dict(checkpoint)
-        # model = resnet50(weight_path='/home/lxw/code/mine/MLEP-Detection/checkpoints/MLEP_resnet502025_01_14_09_05_49/model_epoch_180.pth')
+        model.load_state_dict(model_zoo.load_url(model_urls['resnet50']))
     return model
 
 
