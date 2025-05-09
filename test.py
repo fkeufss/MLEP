@@ -35,6 +35,10 @@ DetectionTests = {
                                  'no_resize'  : False, # Due to the different shapes of images in the dataset, resizing is required during batch detection.
                                  'no_crop'    : True,
                                },
+#                   'Test-set': { 'dataroot'   : '/Data/Test-set',
+#                                 'no_resize'  : False, # Due to the different shapes of images in the dataset, resizing is required during batch detection.
+#                                 'no_crop'    : True,
+#                               },
 
                  }
 
