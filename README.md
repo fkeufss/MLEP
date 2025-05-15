@@ -71,9 +71,14 @@ datasets
 
 Further down are the '0_real' and '1_fake' folders.
 
+## Training
+Download the training datasets and modify the dataroot:
+```sh
+python train.py --name 4class-resnet50 --dataroot /Data/MLEP/datasets/TrainDatasets --classes car,cat,chair,horse --batch_size 32 --delr_freq 10 --lr 0.0002 --niter 100
+```
 ## Testing
 
-Before testing, download the datasets and modify the dataroot in 'test.py', and then run:
+Download the testing datasets and modify the dataroot in 'test.py', and then run:
 ```sh
 python test.py --model_path ./pretrained/model_epoch_best.pth --batch_size 64
 ```
