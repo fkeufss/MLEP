@@ -83,6 +83,6 @@ Download the testing datasets and modify the dataroot in 'test.py', and then run
 python test.py --model_path ./pretrained/model_epoch_best.pth --batch_size 64
 ```
 ## To Do
-1. 环境文件'environment.yaml'含大量跑其他论文代码时用到的包，待整理
+1. 环境文件'environment.yaml'为成功运行测试用到的环境，训练用到的其他包待添加
 2. 测试集链接，待给出
 3. 训练集来源和目录结构，待整理
