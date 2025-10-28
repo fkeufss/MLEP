@@ -1,7 +1,14 @@
-# MLEP
+# MLEP: Multi-granularity Local Entropy Patterns for Generalized Al-generated lmage Detection
 Official github repository for the article [MLEP: Multi-granularity Local Entropy Patterns for Generalized Al-generated lmage Detection](https://arxiv.org/abs/2504.13726), which was accepted by NeurIPS 2025.
 
-<img src="./MLEP.png" width="100%" alt="overall pipeline">
+<p align="center"><img src="./MLEP.png" width="100%" alt="overall pipeline"></p>
+
+<p align="center">
+    <strong>Lin Yuan, Xiaowan Li, Yan Zhang<sup>*</sup>, Jiawei Zhang, Hongbo Li, Xinbo Gao<sup>*</sup></strong>
+</p>
+<p align="center">
+    <strong>Chongqing Key Laboratory of Image Cognition, Chongqing University of Posts and Telecommunications</strong>
+</p>
 
 <p align="center">
     <a href='https://arxiv.org/abs/2504.13726'>
