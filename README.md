@@ -20,7 +20,7 @@ Test Datasets:
 You can also create a dataset with few images to test, just follow a similar folder structure below, and modify the dataroot in 'test.py'.
 
 Train Datasets:
-We use the same training dataset as NPR, which can be obtained at www.xxx.com.
+We use the same training dataset as NPR, which can be obtained at [www.xxx.com](https://github.com/chuangchuangtan/NPR-DeepfakeDetection).
 
 ## Directory structure
 <details>
