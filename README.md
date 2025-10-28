@@ -9,8 +9,8 @@ conda env create -f environment.yaml
 ```
 Due to the large number of environment packages, the "solving environment" step of creating environment may be time-consuming.
 
-## Getting the Test Datasets
-
+## Getting the  Datasets
+Test Datasets:
 |                       |                Url                |
 |:---------------------:|:---------------------------------:|
 |     GAN Dataset1      |     [xxxdrive](url here)          | 
@@ -18,6 +18,9 @@ Due to the large number of environment packages, the "solving environment" step 
 |   Diffusion Dataset   |     [xxxdrive](url here)          | 
 
 You can also create a dataset with few images to test, just follow a similar folder structure below, and modify the dataroot in 'test.py'.
+
+Train Datasets:
+We use the same training dataset as NPR, which can be obtained at www.xxx.com.
 
 ## Directory structure
 <details>
