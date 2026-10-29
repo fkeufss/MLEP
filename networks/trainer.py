@@ -13,7 +13,8 @@ class Trainer(BaseModel):
         super(Trainer, self).__init__(opt)
 
         if self.isTrain and not opt.continue_train:
-            self.model = resnet50(pretrained=True, num_classes=1)
+            # Due to some differences between our structure and the standard Resnet-50, we will not load parameters here.
+            self.model = resnet50(pretrained=False, num_classes=1)
 
         if not self.isTrain or opt.continue_train:
             self.model = resnet50(num_classes=1)
