@@ -11,9 +11,13 @@ Official github repository for the article [MLEP: Multi-granularity Local Entrop
 </p>
 
 <p align="center">
-    <a href='https://arxiv.org/abs/2504.13726'>
-      <img src='https://img.shields.io/badge/arXiv-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'>
-         </a>
+  <a href="https://arxiv.org/abs/2504.13726">
+    <img src="https://img.shields.io/badge/arXiv-PDF-green?style=flat&logo=arXiv&logoColor=green" alt="arXiv PDF">
+  </a>
+  <a href="https://neurips.cc/virtual/2025/poster/119336">
+    <img src="https://img.shields.io/badge/NeurIPS-2025-blue?style=flat" alt="NeurIPS 2025">
+  </a>
+</p>
     
 ## Environment Setup
 ```sh
